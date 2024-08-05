@@ -26,14 +26,17 @@
 
 ```bash
 git clone https://github.com/oganesova/task
+
 cd task-management
+
 2. Настройка Docker
 
 Сборка Docker образа
 docker build -t task-management-app:latest .
+
 Запуск Docker контейнеров
 docker-compose up
 
 3. Доступ к API
 После успешного запуска контейнеров вы можете получить доступ к API через Swagger UI по адресу:
-http://localhost:8080/swagger-ui.html
+http://localhost:8081/swagger-ui.html
