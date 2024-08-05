@@ -10,6 +10,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class SwaggerConfig {
+    //swagger 3
 
     private static final String SCHEME_NAME = "bearerAuth";
     private static final String BEARER_FORMAT = "JWT";
